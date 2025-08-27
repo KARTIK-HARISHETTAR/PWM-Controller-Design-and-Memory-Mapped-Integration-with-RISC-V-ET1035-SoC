@@ -1,0 +1,24 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+D:/d/IRP-SOC-main/Design/ET1035_PJT_V1/ET1035_pjt.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/GEN_FILES/SDN_INV_S_16.vhd,1736405936,vhdl,,,,sdn_inv_s_16,,,,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/GEN_FILES/constants.vhd,1736405936,vhdl,D:/d/IRP-SOC-main/Design/ET1035_SRC/TOP/sys_top.vhd,,,constants,,,,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/GPIO/gpio_chip.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_controller.v,,gpio_chip,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_controller.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_master.v,,i2c_controller,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_master.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_top.v,,i2c_master,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/I2C/i2c_top.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/PWM/pwm.v,,i2c_top,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/MEMORY/RAM/mem_1.vhd,1736405936,vhdl,,,,mem_1,,,,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/MEMORY/ROM/ROM_THEJAS32.vhd,1736405936,vhdl,,,,rom_thejas32,,,,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/MEMORY/ROM/mem_0.vhd,1736405936,vhdl,,,,mem_0,,,,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/GPIO/gpio_chip.v,,ET1035_decode_alu;ET1035_mem_wb;ET1035_mul_div;ET1035_pc_gen;ET1035_regfile;ET1035_top,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/PWM/pwm.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/SPI/spi_controller.v,,pwm,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/SPI/spi_controller.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/SPI/spi_master.v,,spi_controller,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/SPI/spi_master.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/SPI/spi_top.v,,spi_master,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/SPI/spi_top.v,1736405936,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v,,spi_top,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/TOP/sys_top.vhd,1736405936,vhdl,,,,sys_top,,,,,,,,
+D:/d/IRP-SOC-main/Design/ET1035_SRC/UART/uart_top.v,1736405936,verilog,,,,baud_gen;fifo_11_64;fifo_8_64;interrupt;memory_64_11;memory_64_8;receiver;registers;transmitter;uart_top,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/block_mem_1/sim/block_mem_1.v,1736411277,verilog,,D:/d/IRP-SOC-main/Design/ET1035_SRC/PROCESSOR/ET1035_top.v,,block_mem_1,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1736411282,verilog,,D:/d/IRP-SOC-main/ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/block_mem_1/sim/block_mem_1.v,,clk_wiz_0,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/d/IRP-SOC-main/ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1736411282,verilog,,D:/d/IRP-SOC-main/ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/clk_wiz_0,,,,,

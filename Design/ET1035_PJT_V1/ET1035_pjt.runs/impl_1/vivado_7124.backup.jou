@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jan  9 14:18:56 2025
+# Process ID: 7124
+# Current directory: D:/d/IRP-SOC-main/Design/ET1035_PJT_V1/ET1035_pjt.runs/impl_1
+# Command line: vivado.exe -log sys_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sys_top.tcl -notrace
+# Log file: D:/d/IRP-SOC-main/Design/ET1035_PJT_V1/ET1035_pjt.runs/impl_1/sys_top.vdi
+# Journal file: D:/d/IRP-SOC-main/Design/ET1035_PJT_V1/ET1035_pjt.runs/impl_1\vivado.jou
+# Running On        :karthik
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:10
+# CPU Logical cores :12
+# Host memory       :16890 MB
+# Swap memory       :2550 MB
+# Total Virtual     :19441 MB
+# Available Virtual :7012 MB
+#-----------------------------------------------------------
+source sys_top.tcl -notrace

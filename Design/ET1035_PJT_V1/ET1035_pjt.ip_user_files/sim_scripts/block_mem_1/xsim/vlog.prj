@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../../../ET1035_PJT_sim/ET1035_pjt.gen/sources_1/ip/block_mem_1/sim/block_mem_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

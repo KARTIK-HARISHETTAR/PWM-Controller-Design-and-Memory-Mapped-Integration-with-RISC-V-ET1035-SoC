@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../ET1035_SRC/MEMORY/ROM/ROM_THEJAS32.vhd" \
+"../../../../../ET1035_SRC/GEN_FILES/SDN_INV_S_16.vhd" \
+"../../../../../ET1035_SRC/GEN_FILES/constants.vhd" \
+"../../../../../ET1035_SRC/MEMORY/ROM/mem_0.vhd" \
+"../../../../../ET1035_SRC/MEMORY/RAM/mem_1.vhd" \
+"../../../../../ET1035_SRC/TOP/sys_top.vhd" \
+
+# Do not sort compile order
+nosort
