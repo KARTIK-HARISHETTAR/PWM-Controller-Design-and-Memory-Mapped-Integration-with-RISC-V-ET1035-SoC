@@ -43,7 +43,7 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 
 - Open **Vivado 2018.2** (or later).  
 - In the Tcl Console, run the following command:
-ex - source ./scripts/create_project.tcl
+> 💡 Example : source ./scripts/create_project.tcl
 
 
 ## 2. Build the Bitstream
@@ -51,7 +51,7 @@ ex - source ./scripts/create_project.tcl
 - Open the generated project in **Vivado**.  
 - Click **Generate Bitstream**.  
 - Program the FPGA with the `.bit` file: 
-ex - ./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
+> 💡 Example : ./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
 
 ## 3. Compile RISC-V Program with Makefile
 
@@ -59,30 +59,25 @@ ex - ./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
 ex - cd sw
 - Ensure the PWM base address (assigned during port mapping in hardware) is correctly defined in:
 
-  - **config.h** → contains memory map  
-    > 💡 Example :
-    #define PWM_BASE_ADDR 0x10400000 
-   
-
-  - **pwm.h** → wraps the PWM register structure  
-    > 💡 Example :
-    #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
+  - **config.h** → ccontains memory map (e.g., '#define PWM_BASE_ADDR 0x10400000') 
+  - **pwm.h** →wraps the PWM register structure with '#define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))'
     
 
   - **pwm.c** → contains functions (e.g., `pwm_set_duty(int value)`) that write duty cycle values to the mapped register
 > 💡 Example :
+```text
 typedef struct {
     unsigned int DUTY_CYCLE;
 } PWM_REG;
 #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
 - Once configuration files are correct, run:  
-> 💡 Example :
+ > 💡 Example :
 make
 This compiles all sources (`main.c`, `pwm.c`, `uart.c`) and links them with Vega SDK libraries.  
 - The final RISC-V binary will be generated as:  
 
-> 💡 Example :
-pwm_test.bin
+ > 💡 Example :
+    pwm_test.bin
 
 ## 4. Load Program via UART Bootloader  
 
