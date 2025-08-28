@@ -18,12 +18,12 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 
 
 # Requirements
-- Arty A7 FPGA Board (100T)
-- Vivado 2024.1 or later([Vivado 2024.1 User Guide](https://hthreads.github.io/classes/embedded-systems/labs/assets/guides/VivadoGuide2024_1.pdf).)
-- VEGA Tools SDK (for RISC-V ET1035 compilation)
-- Tera Term (Windows) or Minicom (Linux) (for UART bootloader + XMODEM transfer)
-- MicroUSB Cable (for UART interface)
-- LEDs and DC Motor (connected to FPGA outputs)
+- **Arty A7** FPGA Board (100T)
+- **Vivado 2024.1**([Vivado 2024.1 User Guide](https://hthreads.github.io/classes/embedded-systems/labs/assets/guides/VivadoGuide2024_1.pdf).)
+- **VEGA Tools SDK** (for RISC-V ET1035 compilation)
+- **Tera Term** (Windows) or **Minicom** (Linux) (for UART bootloader + XMODEM transfer)
+- **MicroUSB Cable** (for UART interface)
+- **LEDs** and **DC Motor** (connected to FPGA outputs)
 
 # Demo Setup
 ## Hardware
@@ -33,16 +33,16 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 
 ## Software
 
-- Vivado (run TCL script to generate .xpr)
-- Vega SDK + Makefile (to build RISC-V .bin)
-- UART Terminal (Tera Term / Minicom) (for bootloader transfer)
+- **Vivado** (run TCL script to generate .xpr)
+- **Vega SDK + Makefile** (to build RISC-V .bin)
+- **UART Terminal (Tera Term / Minicom)** (for bootloader transfer)
 
  # Steps to Run the Demo
 
 ## 1. Generate Vivado Project from TCL Script
 
-- Open **Vivado 2018.2** (or later).  
-- In the Tcl Console, run the following command:
+- Open **Vivado 2024.1**.  
+- In the **Tcl Console**, run the following command:
 > 💡 Example :
 ```text
 source ./scripts/create_project.tcl
@@ -60,7 +60,7 @@ source ./scripts/create_project.tcl
 
 ## 3. Compile RISC-V Program with Makefile
 
-- Navigate to the `sw/` folder:  
+- Navigate to the `Software` folder:  
 > 💡 Example :
 ```text
  cd sw
