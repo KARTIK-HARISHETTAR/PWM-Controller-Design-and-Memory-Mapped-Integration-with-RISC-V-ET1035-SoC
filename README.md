@@ -62,17 +62,15 @@ ex - cd sw
   - **config.h** → contains memory map  
     > 💡 Example :
     #define PWM_BASE_ADDR 0x10400000 
-    ```
+   
 
   - **pwm.h** → wraps the PWM register structure  
-    ```c
+    > 💡 Example :
     #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
-    ```
+    
 
   - **pwm.c** → contains functions (e.g., `pwm_set_duty(int value)`) that write duty cycle values to the mapped register
-- **Example:**  
-
-```c
+> 💡 Example :
 #define PWM_BASE_ADDR 0x10400000  
 
 typedef struct {
@@ -81,13 +79,12 @@ typedef struct {
 
 #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
 - Once configuration files are correct, run:  
-
-```bash
+> 💡 Example :
 make
 This compiles all sources (`main.c`, `pwm.c`, `uart.c`) and links them with Vega SDK libraries.  
 - The final RISC-V binary will be generated as:  
 
-```bash
+> 💡 Example :
 pwm_test.bin
 
 ## 4. Load Program via UART Bootloader  
