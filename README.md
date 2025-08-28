@@ -43,15 +43,20 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 
 - Open **Vivado 2018.2** (or later).  
 - In the Tcl Console, run the following command:
-> 💡 Example : source ./scripts/create_project.tcl
-
+> 💡 Example :
+```text
+source ./scripts/create_project.tcl
+```
 
 ## 2. Build the Bitstream
 
 - Open the generated project in **Vivado**.  
 - Click **Generate Bitstream**.  
 - Program the FPGA with the `.bit` file: 
-> 💡 Example : ./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
+> 💡 Example :
+```text
+./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
+```
 
 ## 3. Compile RISC-V Program with Makefile
 
@@ -73,13 +78,17 @@ typedef struct {
 ```
 - Once configuration files are correct, run:  
  > 💡 Example :
+```text
 make
+```
+
 This compiles all sources (`main.c`, `pwm.c`, `uart.c`) and links them with Vega SDK libraries.  
 - The final RISC-V binary will be generated as:  
 
  > 💡 Example :
+```text
     pwm_test.bin
-
+```
 ## 4. Load Program via UART Bootloader  
 
 - Open a UART terminal (e.g., **Tera Term**) at `115200` baud.  
