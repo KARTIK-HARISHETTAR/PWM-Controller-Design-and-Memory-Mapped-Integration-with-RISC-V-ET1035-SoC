@@ -61,7 +61,10 @@ source ./scripts/create_project.tcl
 ## 3. Compile RISC-V Program with Makefile
 
 - Navigate to the `sw/` folder:  
-ex - cd sw
+> 💡 Example :
+```text
+ cd sw
+```
 - Ensure the PWM base address (assigned during port mapping in hardware) is correctly defined in:
 
   - **config.h** → ccontains memory map (e.g., '#define PWM_BASE_ADDR 0x10400000') 
@@ -69,8 +72,8 @@ ex - cd sw
     
 
   - **pwm.c** → contains functions (e.g., `pwm_set_duty(int value)`) that write duty cycle values to the mapped register
-> 💡 Example :
-```text
+          > 💡 Example :
+         ```text
 typedef struct {
     unsigned int DUTY_CYCLE;
 } PWM_REG;
