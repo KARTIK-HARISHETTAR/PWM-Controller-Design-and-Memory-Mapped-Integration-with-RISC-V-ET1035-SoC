@@ -43,9 +43,7 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 
 - Open **Vivado 2018.2** (or later).  
 - In the Tcl Console, run the following command:
-
-```bash
-source ./scripts/create_project.tcl
+ex - source ./scripts/create_project.tcl
 
 
 ## 2. Build the Bitstream
