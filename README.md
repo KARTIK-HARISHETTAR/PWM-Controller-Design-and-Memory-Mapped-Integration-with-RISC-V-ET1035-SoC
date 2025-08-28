@@ -106,7 +106,7 @@ This compiles all sources (`main.c`, `pwm.c`, `uart.c`) and links them with Vega
 - **DC motor speed** varies in proportion to PWM values.
 # Additional Notes
   ## Generating Bitstream and Programming the FPGA
-  - Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Arty-A7-100-XADC.xpr".
+  - Open the project in Vivado 2024.1 by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Arty-A7-100-XADC.xpr".
   - In the Flow Navigator panel on the left side of the Vivado window, click Open Hardware Manager.
   - Plug the Arty A7-100T into the computer using a MicroUSB cable.
   - In the green bar at the top of the window, click Open target. Select "Auto connect" from the drop down menu.
