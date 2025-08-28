@@ -7,7 +7,7 @@ When programmed onto the FPGA, the RISC-V processor writes duty cycle values to 
 
 The project demonstrates hardware-software co-design, combining RTL design, embedded programming, SoC integration, and FPGA prototyping.
 
-#PWM Duty Cycle Behavior
+# PWM Duty Cycle Behavior
 | Duty Cycle (%) | LED Brightness  | DC Motor Speed |
 | -------------- | --------------- | -------------- |
 | 0%             | OFF             | Stopped        |
@@ -17,7 +17,7 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 | 100%           | Full Brightness | Maximum Speed  |
 
 
-#Requirements
+# Requirements
 - Arty A7 FPGA Board (100T)
 - Vivado 2024.1 or later([Vivado 2024.1 User Guide](https://hthreads.github.io/classes/embedded-systems/labs/assets/guides/VivadoGuide2024_1.pdf).)
 - VEGA Tools SDK (for RISC-V ET1035 compilation)
@@ -25,13 +25,13 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 - MicroUSB Cable (for UART interface)
 - LEDs and DC Motor (connected to FPGA outputs)
 
-#Demo Setup
-#Hardware
+# Demo Setup
+# Hardware
 
 - Arty A7 board connected to PC via USB.
 - PWM output pins connected to an LED and DC motor driver.
 
-#Software
+# Software
 
 - Vivado (run TCL script to generate .xpr)
 - Vega SDK + Makefile (to build RISC-V .bin)
