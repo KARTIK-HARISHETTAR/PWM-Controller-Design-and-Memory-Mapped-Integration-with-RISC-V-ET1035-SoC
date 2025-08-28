@@ -70,6 +70,7 @@ typedef struct {
     unsigned int DUTY_CYCLE;
 } PWM_REG;
 #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
+```
 - Once configuration files are correct, run:  
  > 💡 Example :
 make
