@@ -94,7 +94,7 @@ This compiles all sources (`main.c`, `pwm.c`, `uart.c`) and links them with Vega
 ```
 ## 4. Load Program via UART Bootloader  
 
-- Open a UART terminal (e.g., **Tera Term**) at `115200` baud.  
+- Open a UART terminal (e.g., **Tera Term**/ **Minicom**) at `115200` baud.  
 - Reset the FPGA → Bootloader banner will appear.  
 - Select **Send File → XMODEM → pwm_test.bin**.  
 - The bootloader copies the program into program memory.  
