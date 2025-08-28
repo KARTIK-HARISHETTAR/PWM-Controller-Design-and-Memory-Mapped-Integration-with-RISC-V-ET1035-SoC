@@ -73,12 +73,12 @@ source ./scripts/create_project.tcl
 
   - **pwm.c** → contains functions (e.g., `pwm_set_duty(int value)`) that write duty cycle values to the mapped register
     > 💡 Example :
-```text
-typedef struct {
+    ```text
+    typedef struct {
     unsigned int DUTY_CYCLE;
-} PWM_REG;
-#define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
-```
+    } PWM_REG;
+    #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
+    ```
 - Once configuration files are correct, run:  
  > 💡 Example :
 ```text
