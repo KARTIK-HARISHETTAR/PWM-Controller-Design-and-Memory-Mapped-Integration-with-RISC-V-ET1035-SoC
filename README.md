@@ -71,12 +71,9 @@ ex - cd sw
 
   - **pwm.c** → contains functions (e.g., `pwm_set_duty(int value)`) that write duty cycle values to the mapped register
 > 💡 Example :
-#define PWM_BASE_ADDR 0x10400000  
-
 typedef struct {
     unsigned int DUTY_CYCLE;
 } PWM_REG;
-
 #define pwm_reg (*((volatile PWM_REG*)(PWM_BASE_ADDR)))
 - Once configuration files are correct, run:  
 > 💡 Example :
@@ -89,11 +86,11 @@ pwm_test.bin
 
 ## 4. Load Program via UART Bootloader  
 
-1. Open a UART terminal (e.g., **Tera Term**) at `115200` baud.  
-2. Reset the FPGA → Bootloader banner will appear.  
-3. Select **Send File → XMODEM → pwm_test.bin**.  
-4. The bootloader copies the program into program memory.  
-5. Execution starts automatically, and **PWM duty cycle control** begins.  
+- Open a UART terminal (e.g., **Tera Term**) at `115200` baud.  
+- Reset the FPGA → Bootloader banner will appear.  
+- Select **Send File → XMODEM → pwm_test.bin**.  
+- The bootloader copies the program into program memory.  
+- Execution starts automatically, and **PWM duty cycle control** begins.  
 
 ## 5. Observe the Output  
 
