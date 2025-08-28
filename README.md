@@ -60,7 +60,7 @@ ex - cd sw
 - Ensure the PWM base address (assigned during port mapping in hardware) is correctly defined in:
 
   - **config.h** → contains memory map  
-    > 💡 Example ():
+    > 💡 Example :
     #define PWM_BASE_ADDR 0x10400000 
     ```
 
