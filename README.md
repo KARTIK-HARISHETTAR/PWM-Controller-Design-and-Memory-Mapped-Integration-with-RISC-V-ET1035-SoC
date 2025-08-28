@@ -26,14 +26,12 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 - LEDs and DC Motor (connected to FPGA outputs)
 
 # Demo Setup
----
-
-# Hardware
+## Hardware
 
 - Arty A7 board connected to PC via USB.
 - PWM output pins connected to an LED and DC motor driver.
 
-# Software
+## Software
 
 - Vivado (run TCL script to generate .xpr)
 - Vega SDK + Makefile (to build RISC-V .bin)
