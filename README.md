@@ -26,6 +26,8 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 - LEDs and DC Motor (connected to FPGA outputs)
 
 # Demo Setup
+---
+
 # Hardware
 
 - Arty A7 board connected to PC via USB.
