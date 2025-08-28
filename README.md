@@ -37,14 +37,16 @@ The project demonstrates hardware-software co-design, combining RTL design, embe
 - Vega SDK + Makefile (to build RISC-V .bin)
 - UART Terminal (Tera Term / Minicom) (for bootloader transfer)
 
-  # Steps to Run the Demo
+ # Steps to Run the Demo
 
 ## 1. Generate Vivado Project from TCL Script
-- Open **Vivado 2018.2** (or later).  
-- In the Tcl Console, run:
 
-```tcl
+- Open **Vivado 2018.2** (or later).  
+- In the Tcl Console, run the following command:
+
+```bash
 source ./scripts/create_project.tcl
+
 
 ## 2. Build the Bitstream
 
