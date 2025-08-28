@@ -50,22 +50,18 @@ ex - source ./scripts/create_project.tcl
 
 - Open the generated project in **Vivado**.  
 - Click **Generate Bitstream**.  
-- Program the FPGA with the `.bit` file:  
-
-```bash
-./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
+- Program the FPGA with the `.bit` file: 
+ex - ./vivado_proj/ET1035_PWM.runs/impl_1/PWMdemo.bit
 
 ## 3. Compile RISC-V Program with Makefile
 
 - Navigate to the `sw/` folder:  
-
-```bash
-cd sw
+ex - cd sw
 - Ensure the PWM base address (assigned during port mapping in hardware) is correctly defined in:
 
   - **config.h** → contains memory map  
-    ```c
-    #define PWM_BASE_ADDR 0x10400000
+    > 💡 Example (#define PWM_BASE_ADDR 0x10400000):
+    #define PWM_BASE_ADDR 0x10400000 
     ```
 
   - **pwm.h** → wraps the PWM register structure  
