@@ -104,7 +104,7 @@ This compiles all sources (`main.c`, `pwm.c`, `uart.c`) and links them with Vega
 
 - **LED brightness** changes smoothly as duty cycles update.  
 - **DC motor speed** varies in proportion to PWM values.
-  # Additional Notes
+# Additional Notes
   ## Generating Bitstream and Programming the FPGA
   - Open the project in Vivado 2018.2 by double clicking on the included XPR file found at "<archive extracted location>/vivado_proj/Arty-A7-100-XADC.xpr".
   - In the Flow Navigator panel on the left side of the Vivado window, click Open Hardware Manager.
