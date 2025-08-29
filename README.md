@@ -123,13 +123,13 @@ The PWM module designed in Verilog was instantiated in the RISC-V ET1035 SoC and
 ## 3. LED Brightness Control using PWM
 <img src="Results/LED1.jpg" alt="Screenshot" width="50%"/>
 The PWM output was connected to an LED on a breadboard. By changing the duty cycle through C code running on the RISC-V processor, the brightness of the LED varied accordingly. Higher duty cycles resulted in increased brightness, while lower duty cycles dimmed the LED. This demonstrated successful hardware-software integration and real-time PWM control.
-### Demo Video
-[Watch Video](Results/LED_video.mp4)
+  - Demo Video
+  [Watch Video](Results/LED_video.mp4)
 ## 4. DC Motor Speed Control using PWM
 <img src="Results/DC_MOTOR1.jpg" alt="Screenshot" width="50%"/>
 The PWM output was further interfaced with an L293D motor driver module to control a DC motor. By modifying the duty cycle from the processor, the average voltage applied to the motor was varied, leading to different rotational speeds. The motor ran faster at higher duty cycles and slowed down at lower duty cycles, confirming the practical use of the designed PWM module in real-time embedded applications.
-### Demo Video
-[Watch Video](Results/DC_MOTOR_video.mp4)
+   - Demo Video
+   [Watch Video](Results/DC_MOTOR_video.mp4)
 ## 5. Smart Street Monitoring using PWM, IR, and LDR
 In addition to verifying PWM operation on oscilloscope, LED, and DC motor, the project was extended to a practical application: **Smart Street Monitoring System**. In this system, an **IR sensor** was used to detect the presence of vehicles and an **LDR sensor** was used to sense ambient light levels. The RISC-V processor continuously read sensor values via GPIO, processed the conditions, and accordingly adjusted the duty cycle of the PWM signal. The PWM output was then used to drive streetlight brightness:
 
@@ -142,5 +142,5 @@ In addition to verifying PWM operation on oscilloscope, LED, and DC motor, the p
 **No obstacle** + **no light** → 50% duty cycle (LED in standby brightness).
 
 This implementation shows how the designed PWM hardware can be integrated into a real-time embedded control system. By combining **Verilog-based PWM logic, RISC-V processor control, and sensor feedback**, the project demonstrates a complete hardware-software co-design solution for energy-efficient streetlight monitoring.
-### Demo Video
-[Watch Video](Results/Application_Of_PWM_With_Audio.mp4)
+   - Demo Video
+   [Watch Video](Results/Application_Of_PWM_With_Audio.mp4)
