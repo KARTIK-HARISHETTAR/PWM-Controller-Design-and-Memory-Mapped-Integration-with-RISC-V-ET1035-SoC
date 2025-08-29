@@ -142,7 +142,7 @@ In addition to verifying PWM operation on oscilloscope, LED, and DC motor, the p
 
 - **Obstacle detected** + **sufficient light** → 70% duty cycle (LED partially ON).
 
-- **No obstacle** + light present → 30% duty cycle (LED dim to save power).
+- **No obstacle** + **light present** → 30% duty cycle (LED dim to save power).
 
 - **No obstacle** + **no light** → 50% duty cycle (LED in standby brightness).
 
