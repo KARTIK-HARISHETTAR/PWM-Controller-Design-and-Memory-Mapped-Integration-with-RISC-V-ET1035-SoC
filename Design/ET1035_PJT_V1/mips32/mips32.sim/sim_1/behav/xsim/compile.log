@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/d/IRP-SOC-main/Design/ET1035_PJT_V1/mips32/mips32.srcs/sources_1/new/mips32.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module pipe_MIPS32
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/d/IRP-SOC-main/Design/ET1035_PJT_V1/mips32/mips32.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
