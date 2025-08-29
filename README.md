@@ -1,6 +1,5 @@
 # LED Project Demo
 <img src="Design/ledproject.jpg" alt="Screenshot" width="50%"/>
-<img src="Design/ledproject.jpg" alt="Screenshot" height="300"/>
 
 
 # Description
