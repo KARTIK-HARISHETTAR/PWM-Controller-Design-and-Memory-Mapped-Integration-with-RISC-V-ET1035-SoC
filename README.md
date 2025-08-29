@@ -1,3 +1,6 @@
+#LED Project Demo
+![Screenshot](Design/ledproject.png)
+
 # Description
 This project is a Vivado demo showcasing a PWM-based DC motor and LED control system implemented on the Arty A7 FPGA.
 
