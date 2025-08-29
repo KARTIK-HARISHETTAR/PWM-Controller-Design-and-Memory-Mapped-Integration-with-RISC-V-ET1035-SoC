@@ -113,4 +113,9 @@ This compiles all sources (`main.c`, `pwm.c`, `uart.c`) and links them with Vega
   - In the green bar at the top of the window, click Open target. Select "Auto connect" from the drop down menu.
   - In the green bar at the top of the window, click Program device.
   - In the Program Device Wizard, enter "<archive extracted location>vivado_proj/Arty-A7-100-XADC.runs/impl_1/XADCdemo.bit" into the "Bitstream file" field. Then click Program.
-  - The demo will now be programmed onto the Arty A7-100T. 
+  - The demo will now be programmed onto the Arty A7-100T.
+
+# Results
+## PWM Output Observation
+<img src="Results/Oscilloscope1.jpg" alt="Screenshot" width="50%"/>
+The designed PWM controller integrated with the RISC-V ET1035 SoC was successfully implemented on the Arty A7 FPGA. The oscilloscope trace shown below verifies the correct generation of PWM signals. By varying the duty cycle value from the software (via memory-mapped register access), the pulse width of the waveform changes accordingly, which directly controls LED brightness or motor speed.
